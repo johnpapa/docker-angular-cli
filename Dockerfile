@@ -1,5 +1,5 @@
 LABEL authors="John Papa"
-FROM node:6.11-alpine as node-plus-angular-cli
+FROM node:6.11-alpine as node-angular-cli
 
 #Linux setup
 RUN apk update \
