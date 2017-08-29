@@ -1,5 +1,6 @@
-LABEL authors="John Papa"
 FROM node:6.11-alpine as node-angular-cli
+
+LABEL authors="John Papa"
 
 #Linux setup
 RUN apk update \
