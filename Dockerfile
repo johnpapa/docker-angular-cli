@@ -1,4 +1,4 @@
-FROM node:6.11-alpine as node-angular-cli
+FROM node:8.9-alpine as node-angular-cli
 
 LABEL authors="John Papa"
 
@@ -11,4 +11,4 @@ RUN apk update \
   && sed -i -e "s/bin\/ash/bin\/sh/" /etc/passwd
 
 #Angular CLI
-RUN npm install -g @angular/cli@1.4.5
+RUN npm install -g @angular/cli@1.4.3
