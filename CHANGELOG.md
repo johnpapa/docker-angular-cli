@@ -1,5 +1,12 @@
 # Dockerfile with Angular CLI Changelog
 
+<a name="2018-09-14"></a>
+
+# 2018-09-14
+
+* Updated to Angular CLI 6.2
+* Now using latest version of CLI available
+
 <a name="2018-05-04"></a>
 
 # 2018-05-04
